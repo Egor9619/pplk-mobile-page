@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="src/styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Вакансии</title>
+</head>
+
+<body>
+    <script>
+        alert("Для лучшего изучения моей работы пожалуйста перейдите в режим разработчика (Ctrl+Shift+C/Cmd+Option+I) и установите ширину экрана 425px. Спасибо ;)")
+    </script>
+    <!--            Навигационная панель -->
+    <header class="header">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="navbar-wrapper">
+                    <button id="burger-btn" class="link navbar-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                </div>
+                <a class="navbar-logo" href="#">
+                    <img src="src/images/icons/navbar-logo.svg" alt="navbar-logo">
+                </a>
+                <ul class="navbar-phones">
+                    <li>
+                        <a class="navbar-link" href="#">8 (812) 603-72-22</a>
+                    </li>
+                    <li>
+                        <a class="navbar-link" href="#">8 (499) 380-77-33</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-nav">
+                    <ul class="navbar-navigation">
+                        <li class="navbar-navigation-item">
+                            <div class="navbar-img">
+                                <img src="src/images/icons/navbar-home-img.svg" alt="home-icon">
+                            </div>
+                            <a class="nav-link" href="#">Главная</a>
+                        </li>
+                        <li class="navbar-navigation-item">
+                            <div class="navbar-img">
+                                <img src="src/images/icons/navbar-homes-img.svg" alt="home-icon">
+                            </div>
+                            <a class="nav-link" href="#">Дома</a>
+                        </li>
+                        <li class="navbar-navigation-item">
+                            <div class="navbar-img">
+                                <img src="src/images/icons/navbar-bany-img.svg" alt="bany-icon">
+                            </div>
+                            <a class="nav-link" href="#">Бани</a>
+                        </li>
+                    </ul>
+                    <a class="navbar-btn btn--green" href="#">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--            1 Ьлок  -->
+    <section class="section-one-banner">
+        <div class="slide-one-text">
+            <div class="company-name-title">
+                пестовский лесокомбинат
+            </div>
+            <div class="company-slogan">
+                <h3>Стань частью нашей команды</h3>
+            </div>
+            <div class="slide-one-red-button red-button">
+                <a href="#">
+                    отправить анкету
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--            2 Блок -->
+    <section class="section-two-about-company">
+        <div class="about-company-title">
+            <title class="title">о компании</title>
+        </div>
+        <div class="about-company-description">
+            <div class="about-company-block">
+                <div class="block-value">
+                    <h1>2</h1>
+                </div>
+                <div class="block-text">
+                    Города присутствия: Санкт-Петербург и Москва
+                </div>
+            </div>
+            <div class="about-company-block">
+                <div class="block-value">
+                    <h1>>30</h1>
+                </div>
+                <div class="block-text">
+                    Лет среди лидеров рынка
+                </div>
+            </div>
+            <div class="about-company-block">
+                <div class="block-value">
+                    <h1>100</h1>
+                </div>
+                <div class="block-text">
+                    Домов и бань ежегодно
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--            3 Блок -->
+
+    <section class="section-three-subdivision">
+        <title class="title">Выбери подразделение</title>
+        <ul class="subdiv-buttons">
+            <li class="subdiv-item">
+                <a class="subdiv-button" href="#">Строительный отдел</a>
+            </li>
+            <li class="subdiv-item">
+                <a class="subdiv-button" href="#">Офис</a>
+            </li>
+            <li class="subdiv-item">
+                <a class="subdiv-button" href="#">Финансовый отдел</a>
+            </li>
+            <li class="subdiv-item">
+                <a class="subdiv-button" href="#">Отдел продаж</a>
+            </li>
+            <li class="subdiv-item">
+                <a class="subdiv-button" href="#">Внештатный сотрудник</a>
+            </li>
+        </ul>
+
+        <div class="vacancy-container">
+            <div class="vacancy-cards">
+                <div class="vacancy-card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <div class="job">
+                                <img src="src/images/icons/vacancy.svg" alt="vacancy-img">
+                                <span>Прораб</span>
+                            </div>
+                            <div class="payment">
+                                <img src="src/images/icons/price.svg" alt="price-img">
+                                <span>от 00 000 руб.</span>
+                            </div>
+                        </div>
+                        <a href="#"><img src="src/images/icons/more.svg" alt="more-img"></a>
+                    </div>
+                </div>
+                <div class="vacancy-card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <div class="job">
+                                <img src="src/images/icons/vacancy.svg" alt="vacancy-img">
+                                <span>Специалист службы поддержки</span>
+                            </div>
+                            <div class="payment">
+                                <img src="src/images/icons/price.svg" alt="price-img">
+                                <span>от 00 000 руб.</span>
+                            </div>
+                        </div>
+                        <img src="src/images/icons/more.svg" alt="more-img">
+                    </div>
+                </div>
+                <div class="vacancy-card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <div class="job">
+                                <img src="src/images/icons/vacancy.svg" alt="vacancy-img">
+                                <span>Логист</span>
+                            </div>
+                            <div class="payment">
+                                <img src="src/images/icons/price.svg" alt="price-img">
+                                <span>Обсуждается на собеседовании</span>
+                            </div>
+                        </div>
+                        <a href="#"><img src="src/images/icons/more.svg" alt="more-img"></a>
+                    </div>
+                </div>
+                <div class="vacancy-card">
+                    <div class="card-content">
+                        <div class="card-text">
+                            <div class="job">
+                                <img src="src/images/icons/vacancy.svg" alt="vacancy-img">
+                                <span>Проектировщик</span>
+                            </div>
+                            <div class="payment">
+                                <img src="src/images/icons/price.svg" alt="price-img">
+                                <span>от 00 000 руб.</span>
+                            </div>
+                        </div>
+                        <a href="#"><img src="src/images/icons/more.svg" alt="more-img"></a>
+                    </div>
+                </div>
+
+                <div id="vacancy-red-btn" class="red-button">Откликнуться на вакансию</div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--            4 Блок -->
+
+    <section class="section-four-our-advantages">
+        <title class="title">Преимущества компании</title>
+
+        <div class="advantages-grid">
+            <div class="advantages-card">
+                <div class="advantages-card-content">
+                    <div class="advantages-text">
+                        Качество продукта
+                    </div>
+                    <a href="#"><img src="src/images/icons/more.svg" alt="more-img"></a>
+                </div>
+            </div>
+            <div class="advantages-card">
+                <div class="advantages-card-content">
+                    <div class="advantages-text">
+                        Популярность бренда в сети
+                    </div>
+                    <a href="#"><img src="src/images/icons/more.svg" alt="more-img"></a>
+                </div>
+            </div>
+            <div class="advantages-card">
+                <div class="advantages-card-content">
+                    <div class="advantages-text">
+                        Передовое рабочее место
+                    </div>
+                    <a href="#"><img src="src/images/icons/more.svg" alt="more-img"></a>
+                </div>
+            </div>
+            <div class="advantages-card">
+                <div class="advantages-card-content">
+                    <div class="advantages-text">
+                        Свои автоматизированные системы обучения
+                    </div>
+                    <a href="#"><img src="src/images/icons/more.svg" alt="more-img"></a>
+                </div>
+            </div>
+            <div class="advantages-card">
+                <div class="advantages-card-content">
+                    <div class="advantages-text">
+                        Сотрудничество с ведущими Компаниями рынка
+                    </div>
+                    <a href="#"><img src="src/images/icons/more.svg" alt="more-img"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--            5 Блок -->
+
+    <section class="section-five-our-products">
+
+        <title class="title">продукты компании</title>
+
+        <div class="our-products-buttons">
+            <div class="buttons">
+                <a class="bany" href="#">Бани</a>
+                <a class="homes" href="#">Дома</a>
+            </div>
+        </div>
+
+            <div class="slider">
+                <div class="item">
+                    <h1>Slide 1</h1>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae
+                    explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum
+                    ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
+                </div>
+                <div class="item">
+                    <h1>Slide 2</h1>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae
+                    explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum
+                    ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
+                </div>
+                <div class="item">
+                    <h1>Slide 3</h1>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae
+                    explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum
+                    ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
+                </div>
+                <div class="item">
+                    <h1>Slide 4</h1>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae
+                    explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum
+                    ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
+                </div>
+                <div class="item">
+                    <h1>Slide 5</h1>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae
+                    explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum
+                    ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
+                </div>
+                <div class="item">
+                    <h1>Slide 6</h1>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae
+                    explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum
+                    ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
+                </div>
+                <div class="item">
+                    <h1>Slide 7</h1>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae
+                    explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum
+                    ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
+                </div>
+                <button id="next">></button>
+                <button id="prev">
+                    < </button>
+            </div>
+
+        </section>
+
+    <!--            6 Блок -->
+
+    <section class="slide-six-career-container">
+        <title #id = "career-title" class="title">Карьерный рост</title>
+        <div class="career-description">
+            <p>
+                Наша Компания является ярким примером, где достойные люди
+                смело и заслужено поднимаются по карьерной лестнице.
+            </p>
+            <p>
+                Мы ценим стремление к развитию и предоставляем все
+                необходимые для этого условия.
+            </p>
+        </div>
+
+        <div class="slider-container">
+            <div class="slide-item">
+                <div class="career-person-image">
+                    <div class="blick">                            
+                    </div>
+                    <img src="src/images/employers/Oleg-Vorobiov-4.webp" alt="Oleg-Vorobiov">    
+                        <button id="career-next"> > </button>
+                        <button id="career-prev"> < </button>
+                </div>
+                <div class="employer-description">
+                    <span class="employer-name">Олег Воробьев</span>
+                    <span class="employer-job">Прораб</span>
+                    <ul id="history" class="employer-history">
+                        <li>
+                            В компании с 2018 года. Начал с позиции 
+                            плотника в строительной бригаде
+                        </li>
+                        <li>
+                            В течении года работы Олег стал бригадиром
+                            и был приглашен в офис Компании на должность
+                            штатного Производителя строительных работ.  
+                        </li>
+                        <li>
+                            На данный момент в его подчинении находится 9 
+                            строительных бригад. Олег вносит весомый вклад 
+                            в итоговый
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--            7 Блок -->
+
+   <section class="slide-seven">
+       <div id="blick-1" class="blick"></div>
+    <div class="slide-seven-content">
+        <div class="slogan-text-container">
+            
+            <div class="slogan-text">
+                <p>
+                    Наши успехи — это заслуга замечательных людей,
+                    работающих в нашей Команде.
+                </p>
+                <p>
+                    У Нас всегда есть 
+                    вакансии для сильных
+                    кандидатов
+                </p>
+            </div>
+        </div>
+        <div class="join-team-button-container">
+            <div class="join-team-container">
+                <p>
+                    Если чувствуешь в Себе потенциал и здоровые
+                    амбиции — ждём рядом с Нами!
+                </p>
+        
+                <div class="red-button">
+                    присоединиться к команде
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="slide-seven-background" src="src/images/background/7449745 2.svg" alt="">
+        
+   </section>
+
+   <!--             8 Блок-->
+
+
+   <footer class="footer-container">
+        <title class="title">контакты</title>
+
+        <div class="footer-contacts">
+            <div class="our-products-buttons">
+                <div class="buttons">
+                    <a class="bany" href="#">Бани</a>
+                    <a class="homes" href="#">Дома</a>
+                </div>
+            </div>
+
+            <!-- Контакты -->
+            <div class="contacts">
+                <div class="contact-item">
+                    <img src="src/images/icons/phone-img.svg" alt="">
+                    <div class="contact-text">
+                        8 (812) 602-77-60
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img src="src/images/icons/message-img.svg" alt="">
+                    <div class="contact-text">
+                        info@pplk.ru
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img src="src/images/icons/adress-img.svg" alt="">
+                    <div id="adress-contact" class="contact-text">
+                        ул. Заозёрная, д.8, к.2, офис 202 (7 мин. от метро
+                        Фрунзенская)
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ссылки на соцсети -->
+            <div class="social-links-container">
+                <div class="links">
+                    <img src="src/images/icons/youtube-icon.svg" alt="youtube-icon">
+                    <img src="src/images/icons/VK-icon.svg" alt="VK-icon">
+                    <img src="src/images/icons/telegram-icon.svg" alt="telegram-icon">
+                </div>
+            </div>
+
+            <!-- Карта -->
+            <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d500.1236049916019!2d30.323093679711246!3d59.90734150456839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696305afcfeac39%3A0x848525066d77d20b!2z0JfQsNC-0LfRkdGA0L3QsNGPINGD0LsuLCA4LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTYwODQ!5e0!3m2!1sru!2sby!4v1717798809647!5m2!1sru!2sby"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="rights-policy-container">
+            <div class="all-rights-container">
+                <span>© 2023 Пестовский Лесокомбинат.</span>
+                <span>Все права защищены.</span>
+            </div>
+
+            <div class="policy">
+                <a href="#">Реквизиты</a>
+                <a href="">Политика конфиденциальности</a>
+            </div>
+
+            <div class="group-icon-container">
+                <img class="group" src="src/images/icons/Group.svg" alt="group-icon">
+            </div>
+        </div>
+   </footer>
+
+
+    <script defer src="./src/scripts/navbar-burger-btn-anim.js"></script>
+    <script defer src="src/scripts/slider-buttons.js"></script>
+</body>
+
+</html>
